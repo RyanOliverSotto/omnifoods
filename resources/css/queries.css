@@ -55,7 +55,33 @@
 
     .col { width: 100%; }
 
-    .main-nav { display: none; }
+    .main-nav { 
+        float: left;
+        margin-top: 35px;
+        margin-left: 25px;
+    }
+
+    .mobile-nav-icon { display: inline-block;}
+
+
+
+    .main-nav { 
+        float: left; 
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+
+    .main-nav li {
+        display: block;
+    }
+
+    .main-nav li a: link,
+    .main-nav li a: visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
 
     h1 { font-size: 180%; }
     h2 { font-size: 150%; }
